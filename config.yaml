@@ -1,9 +1,9 @@
 device: cuda:0
 image_model: facebook/deit-base-distilled-patch16-224
 text_model: bert-base-multilingual-uncased
-intermediate_dim: 512
-model_folder: bert_multi_deit_ukr
-checkpoint: checkpoint-3100
+intermediate_dim: 1024
+model_folder: bert_multi_deit_coco_ukr
+checkpoint: checkpoint-10000
 dataset_root_dir: dataset
-dataset_dir: ukr
-answer_space_filename: answer_space.txt
+dataset_dir: coco_processed_ukr
+answer_space_filename: answer_space_ukr.txt
